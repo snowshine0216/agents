@@ -153,10 +153,12 @@ When you have the key, it's time to create your `.env` file:
 Type the following, being SUPER careful that you get this exactly right:
 
 `OPENAI_API_KEY=`
+`OPENAI_API_BASE=`
 
 And then after the equals sign, paste in your key from OpenAI. So after you've completed this, it should look like this:
 
 `OPENAI_API_KEY=sk-proj-lots_of_characters_here`
+`OPENAI_API_BASE=your_base_url_here`
 
 But obviously the stuff to the right of the equals sign needs to match your key exactly.
 
@@ -176,6 +178,7 @@ Here's the thing: it **needs** to go in the directory named `agents` and it **ne
 Hopefully you're now the proud owner of your very own `.env` file with your key inside, and you're ready for action.
 
 **IMPORTANT: be sure to Save the .env file after you edit it.**
+3. customize the openai base url: 
 
 ## And that's it!!
 
