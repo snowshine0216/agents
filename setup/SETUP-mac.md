@@ -180,6 +180,27 @@ Hopefully you're now the proud owner of your very own `.env` file with your key 
 **IMPORTANT: be sure to Save the .env file after you edit it.**
 3. customize the openai base url: 
 
+
+### Part 6: set Jupyter kernel
+
+``` bash
+source .venv/bin/activate
+
+python -m ipykernel install --user --name .venv --display-name "Python (venv)"
+
+# check if the kernel is installed
+jupyter kernelspec list
+```
+
+
+### Part 7: customize openai base url
+``` python
+openai = OpenAI(
+    api_key=openai_api_key,
+    base_url=openai_api_base
+)
+
+```
 ## And that's it!!
 
 To get started in Cursor, check that you've installed the Python and Jupyter extensions as described in Part 2 above. Then, open the directory called `1_foundations` in the explorer on the left, and double click on `1_lab1.ipynb` to launch the first lab. Click where it says "Select Kernel" near the top right, and select the option called `.venv (Python 3.12.9)` or similar, which should be the first choice or the most prominent choice (you might need to click 'Python Environments' first). Then click in the first cell with code, and press Shift + Enter to execute it.

@@ -1,2 +1,6 @@
-My name is Ed Donner. I'm an entrepreneur, software engineer and data scientist. I'm originally from London, England, but I moved to NYC in 2000.
-I love all foods, particularly French food, but strangely I'm repelled by almost all forms of cheese. I'm not allergic, I just hate the taste! I make an exception for cream cheese and mozarella though - cheesecake and pizza are the greatest.
+I am Xue Yin, a Strategy Quality Engineer with over 16 years of experience in software automation and testing. My career has been defined by a passion for technical optimization, from my roots in Automation Engineering at Zhejiang University to my current role at MicroStrategy.
+Currently, I am dedicated to building LLM-powered applications designed to boost team productivity and unlock "deep work." I have already begun this transition by developing sophisticated tools such as:
+Intelligent Log Analysis Systems using LLM, Redis, and Neo4j.
+Code Migration Frameworks leveraging AST, LangChain, and ChromaDB.
+Bug Analysis Tools built on LangChain to optimize test case density.
+I am deeply passionate about agentic technologies and am an active builder in the space. My goal is to leverage my extensive background in robust software architecture and my growing expertise in AI orchestration to fully transition into an AI Engineer, creating intelligent agents that solve complex real-world problems.
